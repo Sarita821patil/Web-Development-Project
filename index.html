@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Enthusiasts Community</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-lg font-bold">Logo</div>
+            <nav class="space-x-4">
+                <a class="text-gray-600 hover:text-gray-900" href="#home-section">Home</a>
+                <a class="text-gray-600 hover:text-gray-900" href="#pricing-section">Pricing</a>
+                <a class="text-gray-600 hover:text-gray-900" href="#community-section">Community</a>
+                <a class="text-gray-600 hover:text-gray-900" href="#support-section">Support</a>
+            </nav>
+            <div class="space-x-4">
+                <a class="text-gray-600 hover:text-gray-900" href="#login-section">Login</a>
+                <a class="bg-blue-500 text-white px-4 py-2 rounded" href="#register-section">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home-section" class="relative bg-cover bg-center h-96" style="background-image: url('image1.jpg');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto px-4 py-32 text-center relative z-10">
+            <h1 class="text-4xl text-white font-bold">The largest community of photo enthusiasts</h1>
+            <a class="mt-4 inline-block bg-blue-500 text-white px-6 py-3 rounded" href="#register-section">Join Today</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="pricing-section" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Snap photos and share like never before</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold mb-4">Sed ut perspiciatis</h3>
+                    <p class="text-gray-600 mb-4">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                    <a class="text-blue-500" href="#">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold mb-4">Lorem ipsum dolor</h3>
+                    <p class="text-gray-600 mb-4">Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <a class="text-blue-500" href="#">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold mb-4">Nemo enim ipsam</h3>
+                    <p class="text-gray-600 mb-4">Voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                    <a class="text-blue-500" href="#">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold mb-4">Tempor incididunt</h3>
+                    <p class="text-gray-600 mb-4">Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <a class="text-blue-500" href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="community-section" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Have you ever posted any photo on social media?</h2>
+            <p class="text-center text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <div class="bg-white p-6 rounded shadow mb-8">
+                        <h3 class="text-xl font-bold mb-4">Sed ut perspiciatis</h3>
+                        <p class="text-gray-600">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded shadow mb-8">
+                        <h3 class="text-xl font-bold mb-4">Lorem ipsum dolor</h3>
+                        <p class="text-gray-600">Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded shadow">
+                        <h3 class="text-xl font-bold mb-4">Nemo enim ipsam</h3>
+                        <p class="text-gray-600">Voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                    </div>
+                </div>
+                <div>
+                    <img alt="image2.jpg" class="rounded shadow" height="400" src="image2.jpg" width="600"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stylish Photos Section -->
+    <section id="support-section" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Make your photos more stylish</h2>
+            <p class="text-center text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded shadow">
+                    <img alt="image3.jpg" class="mb-4 rounded" height="400" src="image3.jpg" width="600"/>
+                    <h3 class="text-xl font-bold mb-4">Sed ut perspiciatis</h3>
+                    <p class="text-gray-600">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <img alt="image4.jpg" class="mb-4 rounded" height="400" src="image4.jpg" width="600"/>
+                    <h3 class="text-xl font-bold mb-4">Lorem ipsum dolor</h3>
+                    <p class="text-gray-600">Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <img alt="image5.jpg" class="mb-4 rounded" height="400" src="image5.jpg" width="600"/>
+                    <h3 class="text-xl font-bold mb-4">Nemo enim ipsam</h3>
+                    <p class="text-gray-600">Voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Trial Section -->
+    <section id="register-section" class="py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Ready to take a free trial?</h2>
+            <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+            <div class="bg-white p-8 rounded shadow inline-block">
+                <h3 class="text-xl font-bold mb-4">Sign up for a free account</h3>
+                <form onsubmit="return validateForm()">
+                    <div class="mb-4">
+                        <input class="w-full px-4 py-2 border rounded" placeholder="First Name" type="text" id="first-name" required/>
+                    </div>
+                    <div class="mb-4">
+                        <input class="w-full px-4 py-2 border rounded" placeholder="Last Name" type="text" id="last-name" required/>
+                    </div>
+                    <div class="mb-4">
+                        <input class="w-full px-4 py-2 border rounded" placeholder="Email" type="email"/>
+                    </div>
+                    <div class="mb-4">
+                        <input class="w-full px-4 py-2 border rounded" placeholder="Phone No" type="int"/>
+                    </div>
+                    <div class="mb-4">
+                        <input class="w-full px-4 py-2 border rounded" placeholder="Password" type="password"/>
+                    </div>
+                    <button class="bg-blue-500 text-white px-6 py-2 rounded" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center mb-8">
+                <div class="text-lg font-bold">Logo</div>
+                <div class="space-x-4">
+                    <a class="text-gray-400 hover:text-white" href="#">Home</a>
+                    <a class="text-gray-400 hover:text-white" href="#">Pricing</a>
+                    <a class="text-gray-400 hover:text-white" href="#">Community</a>
+                    <a class="text-gray-400 hover:text-white" href="#">Support</a>
+                </div>
+                <a class="bg-blue-500 text-white px-4 py-2 rounded" href="#">Register</a>
+            </div>
+            <div class="text-center text-gray-400">© 2023 Photo Enthusiasts Community. All rights reserved.</div>
+        </div>
+    </footer>
+</body>
+</html>
+                        
